@@ -24,7 +24,7 @@ namespace WebApiSegura.Controllers
     [HttpGet]
     public IHttpActionResult GetAll()
     {
-      var customersFake = new string[] { "customer-1", "customer-2", "customer-3" };
+      var customersFake = new string[] { "customer 1", "customer 2", "customer 3" };
       return Ok(customersFake);
     }
   }
